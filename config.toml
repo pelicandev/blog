@@ -1,4 +1,29 @@
-baseURL = "http://example.org/"
+baseURL = "https://pelicandev.github.io/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "PeliCan Dev"
 theme = "m10c"
+
+[params]
+  author = "Bartosz Pelikan"
+  description = "Cloud Technology Enthusiast | .NET developer"
+  avatar = "/images/img.jpg"
+
+[[params.social]]
+  name = "github"
+  url = "https://github.com/bpelikan"
+
+[[params.social]]
+  name = "twitter"
+  url = "https://twitter.com/bartoszpelikan"
+
+[[params.social]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/bartoszpelikan/"
+
+[[params.social]]
+  name = "facebook"
+  url = "https://www.facebook.com/bartoszpelikan/"
+
+[[params.social]]
+  name = "mysite"
+  url = "https://www.bartoszpelikan.pl/"
