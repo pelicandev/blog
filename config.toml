@@ -5,26 +5,10 @@ theme = "m10c"
 paginate = 10
 googleAnalytics = "UA-158097567-3"
 
-[permalinks]
-  posts = "/:year/:month/:day/:title/"
-
-# https://gohugo.io/content-management/multilingual/
-[languages]
-  [languages.en]
-    # baseURL = "https://pelicandev.io/"
-    languageName = "English"
-    # title = "PeliCanDev en"
-    weight = 1
-  [languages.pl]
-    # baseURL = "https://pelicandev.io/pl/"
-    languageName = "Polish"
-    # title = "PeliCanDev pl"
-    weight = 2
 [params]
   author = "Bartosz Pelikan"
   description = "Cloud Technology Enthusiast | .NET developer"
   avatar = "/images/img.jpg"
-
   [params.style]
     primaryColor = "#1da1f2" #018abd, 1da1f2, 2eafff
 
@@ -43,3 +27,19 @@ googleAnalytics = "UA-158097567-3"
 [[params.social]]
   name = "mysite"
   url = "https://www.bartoszpelikan.pl/"
+
+
+
+[permalinks]
+  posts = "/:year/:month/:day/:title/"
+
+# https://gohugo.io/content-management/multilingual/
+[languages]
+  [languages.en]
+    # baseURL = "https://pelicandev.io/"
+    languageName = "English"
+    weight = 1
+  [languages.pl]
+    # baseURL = "https://pelicandev.io/pl/"
+    languageName = "Polski"
+    weight = 2
