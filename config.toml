@@ -11,7 +11,7 @@ googleAnalytics = "UA-158097567-3"
   avatar = "/images/img.jpg"
   [params.style]
     primaryColor = "#1da1f2" #018abd, 1da1f2, 2eafff
-  [lang]
+  [params.lang]
     switch_enabled = false
 
 [[params.social]]
