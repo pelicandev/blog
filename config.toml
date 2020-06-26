@@ -11,6 +11,8 @@ googleAnalytics = "UA-158097567-3"
   avatar = "/images/img.jpg"
   [params.style]
     primaryColor = "#1da1f2" #018abd, 1da1f2, 2eafff
+  [lang]
+    switch_enabled = false
 
 [[params.social]]
   name = "github"
@@ -35,6 +37,7 @@ googleAnalytics = "UA-158097567-3"
 
 # https://gohugo.io/content-management/multilingual/
 [languages]
+    
   [languages.en]
     # baseURL = "https://pelicandev.io/"
     languageName = "English"
