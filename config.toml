@@ -8,6 +8,18 @@ googleAnalytics = "UA-158097567-3"
 [permalinks]
   posts = "/:year/:month/:day/:title/"
 
+# https://gohugo.io/content-management/multilingual/
+[languages]
+  [languages.en]
+    # baseURL = "https://pelicandev.io/"
+    languageName = "English"
+    # title = "PeliCanDev en"
+    weight = 1
+  [languages.pl]
+    # baseURL = "https://pelicandev.io/pl/"
+    languageName = "Polish"
+    # title = "PeliCanDev pl"
+    weight = 2
 [params]
   author = "Bartosz Pelikan"
   description = "Cloud Technology Enthusiast | .NET developer"
