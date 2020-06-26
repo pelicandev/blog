@@ -5,6 +5,9 @@ theme = "m10c"
 paginate = 10
 googleAnalytics = "UA-158097567-3"
 
+[permalinks]
+  posts = "/:year/:month/:day/:title/"
+
 [params]
   author = "Bartosz Pelikan"
   description = "Cloud Technology Enthusiast | .NET developer"
