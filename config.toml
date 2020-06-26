@@ -13,6 +13,9 @@ googleAnalytics = "UA-158097567-3"
   description = "Cloud Technology Enthusiast | .NET developer"
   avatar = "/images/img.jpg"
 
+  [params.style]
+    primaryColor = "#1da1f2" #018abd, 1da1f2, 2eafff
+
 [[params.social]]
   name = "github"
   url = "https://github.com/bpelikan"
