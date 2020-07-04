@@ -4,6 +4,7 @@ title = "PeliCanDev"
 theme = "m10c"
 paginate = 10
 googleAnalytics = "UA-158097567-3"
+disqusShortname = "pelicandev"
 
 [params]
   author = "Bartosz Pelikan"
