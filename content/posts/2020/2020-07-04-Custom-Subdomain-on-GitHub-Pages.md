@@ -38,4 +38,4 @@ Now everything is set up correctly and my [subdomain][subdomain-url] is working.
 [subdomain-repo]: https://github.com/pelicandev/subdomain
 [subdomain-url]: https://subdomain.pelicandev.io/
 
-[set-custom-domain-on-github-pages]: https://pelicandev.io/images/2020/07/04/set-custom-subdomain-on-github-pages.jpg.jpg
+[set-custom-domain-on-github-pages]: https://pelicandev.io/images/2020/07/04/set-custom-subdomain-on-github-pages.jpg
