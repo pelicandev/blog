@@ -37,4 +37,4 @@ Now everything is set up correctly. It may take a while for the page to be acces
 [github-pages-ip]: https://help.github.com/en/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site
 [pelicandev.github.io]: https://github.com/pelicandev/pelicandev.github.io
 
-[set-custom-domain-on-github-pages]: /images/2020/06/26/set-custom-domain-on-github-pages.jpg
+[set-custom-domain-on-github-pages]: https://pelicandev.io/images/2020/06/26/set-custom-domain-on-github-pages.jpg
