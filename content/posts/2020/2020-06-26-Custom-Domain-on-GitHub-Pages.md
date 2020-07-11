@@ -3,6 +3,8 @@ title: 'Custom Domain on GitHub Pages'
 date: 2020-06-26T18:00:00+02:00
 publishdate: 2020-06-26T18:00:00+02:00
 tags: ["github-pages"]
+aliases: 
+    - "/2020/06/26/custom-domain-on-github-pages/"
 ---
 
 ### Introduction
@@ -14,7 +16,7 @@ Using Github pages we can use own domain - more about that you can find in [docu
 1. First we need repository. Repository for root domain should be named `{user_name}.github.io` or `{organization_name}.github.io`. 
 In my case this is [pelicandev.github.io][pelicandev.github.io] repository.
 
-2. Now go to repository settings and set your domain in `GitHub Pages` section.
+2. Now go to repository settings and set your domain in `GitHub Pages -> Custom domain` section.
     ![setting custon domain address on GitHub Pages][set-custom-domain-on-github-pages]
 
 3. Go to your DNS provider and create records for you site. Here is my records:
@@ -27,11 +29,10 @@ In my case this is [pelicandev.github.io][pelicandev.github.io] repository.
     | @    | A     | 185.199.111.153       |
     | www  | CNAME | pelicandev.github.io. |
     ```
-    IPs adresses in A records could be vary, so it is worth checking the [documetation][github-pages-ip] to see if they are up to date.
+    IPs adresses in A records could be vary, so it is worth checking the [documentation][github-pages-ip] to see if they are up to date.
     Value in CNAME records is my Github Pages address.
 
 Now everything is set up correctly. It may take a while for the page to be accessible by our custom domain - this time depends on DNS propagation.
-
 
 [github-pages-documentation]: https://help.github.com/en/github/working-with-github-pages/configuring-a-custom-domain-for-your-github-pages-site
 [github-pages-ip]: https://help.github.com/en/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site

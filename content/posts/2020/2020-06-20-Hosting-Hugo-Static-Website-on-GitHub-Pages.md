@@ -3,15 +3,17 @@ title: 'Hosting Hugo Static Website on GitHub Pages'
 date: 2020-06-20T17:00:00+02:00
 publishdate: 2020-06-20T17:00:00+02:00
 tags: ["hugo", "github-pages"]
+aliases: 
+    - "/2020/06/20/hosting-hugo-static-website-on-github-pages/"
 ---
 
-## Intoduction
+### Intoduction
 
 * **GitHub Pages** allow to host static content directly from repository on GitHub. More about GitHub Pages you can find in [documentation][github-pages]
 
 * **Hugo** is a static website generetor written in Go. More about Hugo you can find in [documentation][hugo]
 
-## Preparation
+### Preparation
 
 To host Hugo webpage on GitHub Pages I prepared 3 repositories:
 * **[blog][pelicandev/blog]** - project containing all files necessary to generate static site by Hugo
@@ -91,7 +93,7 @@ First post
 ```
 
 #### 7. Publish site
-Now it's time to publish site to GitHub Pages. GitHub doesn't support Hugo site generator, just Jekyll, but fortunately it's possible to achieve this by send static files.
+Now it's time to publish site to GitHub Pages. GitHub doesn't support Hugo site generator, just Jekyll, but fortunately it's possible to achieve this by sending static files.
 ```bash
 hugo
 ```
