@@ -4,6 +4,7 @@ date: 2020-07-11T21:00:00+02:00
 tags: ["azure","azure-development", "development", "szkoła-chmury", "homework"]
 aliases: 
      - "/pl/2020/07/11/tworzenie-zasobów-za-pomocą-azure-portal-azure-cli-azure-powershell-azure-rest-api/"
+     - "/pl/szkola-chmury/2020-07-11-tworzenie-zasobów-za-pomocą-azure-portal-azure-cli-azure-powershell-azure-rest-api/"
 ---
 
 [Zadanie domowe z tygodnia 2 (Microsoft Azure – Software Development)](https://szkolachmury.pl/google-cloud-platform-droga-architekta/tydzien-2-podstawy-pracy-z-gcp/zadanie-domowe-nr-2/)
