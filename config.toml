@@ -1,4 +1,4 @@
-baseURL = "https://pelicandev.io/"
+baseURL = "https://pelicandev.github.io/"
 languageCode = "en-us"
 title = "PeliCanDev"
 theme = "m10c"
